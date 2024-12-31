@@ -1,0 +1,392 @@
+.a1{
+    color: #fdfeff;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    
+   
+}
+#item1{
+    text-decoration: none;
+    font-size: 23px;
+}
+#sec1{
+    border: 2px solid #545a66;
+    width: 100%;
+    top: 0px;
+    position: sticky;
+    background-color: #3b414d;
+    line-height: 50px;
+    height: 60px;
+    
+}
+
+
+#nav1{
+    border: 1px solid #545a66;
+    display: inline-block;
+    width: 500px;
+    
+    margin-top: 5px;
+    height: 45px;
+    word-spacing: 30px;
+    margin-left: 130px;
+    
+}
+#item1{
+    color: #fdfeff;
+    position: absolute;
+    font-family: sans-serif;
+    padding-left: 10px;
+    
+}
+
+#item2{
+    color: #fdfeff;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 17px;
+    right: 300px;
+    margin-top: 8px;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    padding-left: 50px;
+    border: 1px solid #545a66;
+    text-decoration: none;
+    
+}
+#item3{
+    color: #fdfeff;
+    background-color: #e7746f;
+    border: 1px solid #545a66;
+    font-size: 17px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    margin-top: 8px;
+    position: absolute;
+    font-family: sans-serif;
+    right: 70px;
+    text-decoration: none;
+    
+}
+#item4{
+    position: relative;
+    
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    display: inline-block;
+    border:1px solid #545a66;
+    padding-left: 10px;
+    color: #fdfeff;
+}
+
+/* my portfolio */
+#main11{
+    background-color: #f7f7f7;
+    padding-top: 20px;
+}
+.pt1{
+    line-height: 30px;
+    padding-left: 30px;
+    color: #a9a9a7;
+    font-family: sans-serif;
+}
+
+
+#h21{
+   text-align: center;
+    
+}
+#h21::before{
+    content:"";
+    border: 2px solid #bdb7b7;
+    position: absolute;
+    left: 175px;
+    top:300px;
+    width:500px;
+    border-bottom-style: none;
+    margin-top: 65px;
+    
+
+}
+
+#h21::after{
+    content:"";
+    border: 2px solid #bdb7b7;
+    position: absolute;
+    right: 175px;
+    top:300px;
+    width:500px;
+    border-bottom-style: none;
+    margin-top: 65px;
+}
+
+
+
+#main2{
+
+    /* border:2px solid black; */
+    padding-top: 20px;
+    padding-left: 200px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px 400px;
+    height: 180vh;
+    row-gap: 250px;
+    background-color:#f7f7f7;
+    /* gap: 40px; */
+    
+}
+h3{
+    font-family: sans-serif;
+    padding-left:25px;
+}
+.sss{
+    /* border: 1px solid black;  */
+    
+    /* right: 50px; */
+    height: 600px;
+    width: 350px; 
+    background-color: #ffffff;  
+    
+}
+img{
+   
+    width: 100%;
+}
+
+.btn1{
+   /* margin-left: 80px; */
+   margin-top: 30px;
+   margin-left: 30px;
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: #252122;
+    color: #fdfeff;
+    font-family: sans-serif;
+    font-size: 17px;
+    
+
+}
+
+/* --------the blog content-------- */
+#h2p{
+    text-align: center;
+    padding: 0px;
+    /* margin-top: 0px; */
+
+}
+h3{
+    margin-left: 20px;
+}
+
+#h1tt{
+    text-align: center;
+}
+#h1tt::after{
+    content:"";
+    border: 2px solid #bdb7b7;
+    position: absolute;
+    right: 175px;
+    top:1762px;
+    width:500px;
+    border-bottom-style: none;
+    margin-top: 30px;
+}
+
+#h1tt::before{
+    content:"";
+    border: 2px solid #bdb7b7;
+    position: absolute;
+    left: 175px;
+   
+    /* margin-top:80%; */
+    top:1762px;
+    width:500px;
+    margin-top: 50px;
+    border-bottom-style: none;
+    margin-top: 30px;
+}
+
+
+
+ #div1{
+    /* margin-top: 0px; */
+    background-color:whitesmoke;
+    height: 100vh;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+
+
+#div2{
+
+    /* margin-top: 30px;*/
+    margin-left: 150px; 
+    display: inline-block;
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    transition: 1.5s;
+    box-shadow: 5px 5px 15px 5px rgb(211, 18, 18);
+
+    
+    
+    
+    
+}
+
+#div2:hover{
+    transform: scale(1.2,1.2);
+
+}
+#div3:hover{
+    transform: scale(1.2,1.2);
+
+}
+#img1{
+    height: 250px;
+    width: 500px;
+    
+    
+}
+
+#img2{
+    height: 250px;
+    width: 500px;
+    
+}
+p{
+    margin-left: 20px;
+    line-height: 1.5;
+    /* text-align: center; */
+}
+#div3{
+    margin-top: 40px;
+    margin-left: 150px;
+    display: inline-block;
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    transition: 1.5s;
+    box-shadow: 5px 5px 15px 5px rgb(211, 18, 18);
+
+}
+button{
+    padding: 10px;
+    width: 170px;
+    /* border-color:  rgb(211, 18, 18); */
+    /* background-color: blue; */
+    color: white;
+
+}
+#btn1{
+    border-color:  rgb(211, 18, 18);
+    background-color: rgb(211, 18, 18);
+    margin: 30px;
+    margin-left: 60px;
+    display: inline-block;
+    font-size: 14.8px;
+    transition: 0.5s;
+} 
+#btn2{
+    background-color: black;
+    color: white;
+    margin: 30px;
+    display: inline-block;
+    font-size: 14.8px;
+    transition: 0.5s;
+}
+
+#btn3{
+    border-color:  rgb(211, 18, 18);
+    background-color: rgb(211, 18, 18);
+    margin: 30px;
+    margin-left: 60px;
+    display: inline-block;
+    font-size: 14.8px;
+    transition: 0.5s;
+
+}
+
+#btn4{
+    background-color: black;
+    color: white;
+    
+    margin: 30px;
+    display: inline-block;
+    font-size: 14.8px;
+    transition: 0.5s;
+
+}
+
+#btn1:hover{
+    transform: scale(1.2,1.2);
+}
+#btn2:hover{
+    transform: scale(1.2,1.2);
+}
+#btn3:hover{
+    transform: scale(1.2,1.2);
+}
+#btn4:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+/* ----------Deotrope main--------- */
+
+#san1{
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+    height: 200px;
+}
+
+#nav2{
+    padding-bottom: 50px;
+    word-spacing: 80px;
+    padding-top: 20px;
+}
+
+#nav2 >a{
+   
+    text-decoration: none;
+    color: #b3b1bf;
+    font-style: italic;
+   word-spacing: 100px;
+}
+
+#ahome{
+    color: white;
+    padding: 13px;
+    border-radius: 5px;
+    background-color: #d62349;
+}
+
+ /* #amu{
+   
+    background-image: url(../assets/images/renn.jpg);
+    
+    height: 440px;
+    position:relative;
+    width: 100%;
+    background-size: 100% 100%;
+   
+    background-repeat: no-repeat;
+    
+    background-size:cover;
+   
+  
+    
+}  */
+
+
+
